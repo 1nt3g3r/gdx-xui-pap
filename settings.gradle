@@ -1,0 +1,5 @@
+include ':gdx-xml-ui'
+project(':gdx-xml-ui').projectDir = new File('../gdx-xml-ui')
+
+include ':gdx-powerful-assets'
+project(':gdx-powerful-assets').projectDir = new File('../gdx-powerful-assets')
