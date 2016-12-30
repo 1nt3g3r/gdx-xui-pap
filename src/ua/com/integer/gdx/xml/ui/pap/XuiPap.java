@@ -10,7 +10,6 @@ import com.badlogic.gdx.utils.I18NBundle;
 
 import ua.com.integer.gdx.xml.ui.XUI;
 import ua.com.integer.gdx.xml.ui.pap.imp.BitmapFontProvider;
-import ua.com.integer.gdx.xml.ui.pap.imp.I18NProvider;
 import ua.com.integer.gdx.xml.ui.pap.imp.MusicProvider;
 import ua.com.integer.gdx.xml.ui.pap.imp.SoundProvider;
 import ua.com.integer.gdx.xml.ui.pap.imp.TextureAtlasProvider;
@@ -27,6 +26,5 @@ public class XuiPap {
         assets.registerAssetProvider(Texture.class, new TextureProvider());
         assets.registerAssetProvider(TextureRegion.class, new TextureRegionProvider());
         assets.registerAssetProvider(BitmapFont.class, new BitmapFontProvider());
-        assets.registerAssetProvider(I18NBundle.class, new I18NProvider());
     }
 }
