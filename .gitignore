@@ -12,3 +12,6 @@ build
 
 #IntelliJ
 *.iml
+
+#Machine specific
+pull.sh
